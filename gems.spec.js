@@ -17,6 +17,18 @@ var fixtures = [
     gems: [3,6,9],
     pirates: 2,
     expected: [[3,6], [9]]
+  }, 
+
+  {
+    gems: [6,3,2,4,1],
+    pirates: 2,
+    expected: [[6,2], [3,4,1]]
+  },
+
+  {
+    gems: [3,2,7,7,14,5,3,4,9,2],
+    pirates: 4,
+    expected: []
   }
 ]
 
